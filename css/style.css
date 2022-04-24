@@ -34,6 +34,10 @@ main{
 
 .linhaBaixo{
     background-color: plum;
+    width:50%;
+    text-align:left;
+    margin-left:0;
+    height: 3px;
 }
 
 .sec-foto{
