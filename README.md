@@ -9,7 +9,7 @@
 [Link do PDF de requisitos](https://github.com/soareslil/ctd-1bi-frontend1-a26-bootstrap/blob/main/%5BMesa%20de%20Trabalho%5D%20Aula%2026.pdf)
 
 ### ✔️ RESULTADO DO NOSSO PROJETO:  
-[Link do projeto no ar]() 
+[Link do projeto no ar](https://soareslil.github.io/ctd-1bi-frontend1-a26-bootstrap/) 
 
 
 __TODOS OS DIREITOS RESERVADOS A ESCOLA DIGITAL HOUSE CODING SCHOOL__
