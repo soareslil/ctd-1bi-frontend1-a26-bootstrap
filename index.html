@@ -1,147 +1,339 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>AULA 26</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <main>
-        <div class="container divHeader">
+      <div class="container divHeader">
+        <nav class="navbar navbar-expand-lg navbar-light">
+          <a class="navbar-brand" href="#">Portfolio | Liliane Soares</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Alterna navegação"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-flex justify-content-lg-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#sec-portfolio">Portifolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec-about">Sobre mim</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#sec-contato">Contato</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
 
-
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand" href="#">Portfolio | Liliane Soares</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-lg-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Portifolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre mim</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            
+      <section id="sec-foto">
+        <div class="container sec-foto">
+          <div
+            class="row d-flex flex-column justify-content-center align-items-center"
+          >
+            <br /><br /><br />
+            <div class="image d-flex justify-content-center">
+              <img
+                src="img/liliane-business-pic.jpg"
+                class="rounded-circle w-25 d-block"
+                alt="foto de perfil"
+              />
+            </div>
+            <h1>LILIANE SOARES</h1>
+            <hr class="linhaBaixo" />
+            <h4>Software Developer | Certified Tech Developer</h4>
+          </div>
+          <br /><br /><br /><br />
         </div>
+      </section>
 
-        <section id="sec-foto">
-            <div class="container sec-foto">
-                <div class="row d-flex flex-column justify-content-center align-items-center">
-                    <br><br><br>
-                   <div class="image d-flex justify-content-center">
+      <section id="sec-portfolio">
+        <br />
+        <div class="container">
+          <div class="row d-flex justify-content-center align-items-center">
+            <h2 class="text-center col-12">Portfolio</h2>
 
-                    <img src="img/liliane-business-pic.jpg" class="rounded-circle w-25 d-block" alt="foto de perfil">
-                   </div>
-                   <h1>LILIANE SOARES</h1>
-                   <hr class="linhaBaixo">
-                   <h4>Software Developer | Certified Tech Developer</h4>
-                </div>
-                <br><br><br><br>
+            <div
+              class="card col-12 col-md-4 col-lg-3 mr-2 mb-2"
+              style="width: 18rem"
+            >
+              <img
+                class="card-img-top img-fluid"
+                src="img/capa-pizza.jpeg"
+                alt="capa da pizza"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  <a
+                    target="_blank"
+                    href="https://soareslil.github.io/ctd-1bi-frontend1-a11/"
+                    >Projeto Pizzaria.</a
+                  >
+                </p>
+              </div>
             </div>
-        </section>
-
-        <section id="sec-portfolio">
-            <div class="container">
-                <div class="row  d-flex justify-content-center align-items-center">
-
-                    <h2 class="text-center col-12">Portfolio</h2>
-
-                    <div class="card col-12 col-md-4 col-lg-3 mr-2 mb-2" style="width: 18rem;">
-                        <img class="card-img-top img-fluid" src="img/capa-pizza.jpeg" alt="capa da pizza">
-                        <div class="card-body">
-                          <p class="card-text text-center"> <a  target="_blank" href="https://soareslil.github.io/ctd-1bi-frontend1-a11/">Projeto Pizzaria.</a></p>
-                        </div>
-                    </div>
-                    <div class="card col-12 col-md-4 col-lg-3 mr-2 mb-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/capa-batman.png" alt="capa da pizza">
-                        <div class="card-body">
-                          <p class="card-text text-center">  <a  target="_blank" href="https://soareslil.github.io/ctd-1bi-frontend1-a10/">Projeto Batman.</a></p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-md-4 col-lg-3 mr-2 mb-2" style="width: 18rem;">
-                        <img class="card-img-top max-width: 20px" src="img/capa-mcdonalds-logo.png" alt="capa da pizza">
-                        <div class="card-body">
-                          <p class="card-text text-center"> <a target="_blank" href="https://soareslil.github.io/ctd-1bi-frontend1-a21-checkpoint2/"> Projeto McDonalds.</a></p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-md-4 col-lg-3 mr-2 mb-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/capa-cssgrid.jpg" alt="capa da pizza">
-                        <div class="card-body">
-                          <p class="card-text text-center"><a  target="_blank" href="https://soareslil.github.io/ctd-1bi-frontend1-a25-cssGrid/">Projeto CSS Grid.</a></p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-md-4 col-lg-3 mr-2 mb-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/capa-javascript.png" alt="capa da pizza">
-                        <div class="card-body">
-                          <p class="card-text text-center"> <a  target="_blank" href="https://soareslil.github.io/js_web_alura/">Projeto IMC JavaScript.</a></p>
-                        </div>
-                    </div>
-
-                    <div class="card col-12 col-md-4 col-lg-3 mr-2 mb-2" style="width: 18rem;">
-                        <img class="card-img-top" src="img/capa-gameshop.jpeg" alt="capa da pizza">
-                        <div class="card-body">
-                          <p class="card-text text-center"> <a  target="_blank" href="https://soareslil.github.io/ctd-1bi-frontend1-a20/">Projeto GameShop.</a></p>
-                        </div>
-                    </div>
-                </div>
+            <div
+              class="card col-12 col-md-4 col-lg-3 mr-2 mb-2"
+              style="width: 18rem"
+            >
+              <img
+                class="card-img-top"
+                src="img/capa-batman.png"
+                alt="capa da pizza"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  <a
+                    target="_blank"
+                    href="https://soareslil.github.io/ctd-1bi-frontend1-a10/"
+                    >Projeto Batman.</a
+                  >
+                </p>
+              </div>
             </div>
-        </section>
 
-        <section class="about">
-            <div class="container">
-                <div class="row">
-                    <h2 class="col-12 text-center">About me</h2>
-
-                            <div class="col-12 col-md-6">
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                            </div>
-        
-                            <div class="col-12 col-md-6">
-                                <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
-                            </div>
-                
-                </div>
+            <div
+              class="card col-12 col-md-4 col-lg-3 mr-2 mb-2"
+              style="width: 18rem"
+            >
+              <img
+                class="card-img-top max-width: 20px"
+                src="img/capa-mcdonalds-logo.png"
+                alt="capa da pizza"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  <a
+                    target="_blank"
+                    href="https://soareslil.github.io/ctd-1bi-frontend1-a21-checkpoint2/"
+                  >
+                    Projeto McDonalds.</a
+                  >
+                </p>
+              </div>
             </div>
-            <div class=" d-flex justify-content-center">
-                <a  class="btn btn-primary" href="LS Resume Tech.pdf" download="lilianesoares-resume">Download Resume</a>
+
+            <div
+              class="card col-12 col-md-4 col-lg-3 mr-2 mb-2"
+              style="width: 18rem"
+            >
+              <img
+                class="card-img-top"
+                src="img/capa-cssgrid.jpg"
+                alt="capa da pizza"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  <a
+                    target="_blank"
+                    href="https://soareslil.github.io/ctd-1bi-frontend1-a25-cssGrid/"
+                    >Projeto CSS Grid.</a
+                  >
+                </p>
+              </div>
             </div>
-        </section>
 
+            <div
+              class="card col-12 col-md-4 col-lg-3 mr-2 mb-2"
+              style="width: 18rem"
+            >
+              <img
+                class="card-img-top"
+                src="img/capa-javascript.png"
+                alt="capa da pizza"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  <a
+                    target="_blank"
+                    href="https://soareslil.github.io/js_web_alura/"
+                    >Projeto IMC JavaScript.</a
+                  >
+                </p>
+              </div>
+            </div>
 
+            <div
+              class="card col-12 col-md-4 col-lg-3 mr-2 mb-2"
+              style="width: 18rem"
+            >
+              <img
+                class="card-img-top"
+                src="img/capa-gameshop.jpeg"
+                alt="capa da pizza"
+              />
+              <div class="card-body">
+                <p class="card-text text-center">
+                  <a
+                    target="_blank"
+                    href="https://soareslil.github.io/ctd-1bi-frontend1-a20/"
+                    >Projeto GameShop.</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="sec-about" class="about sec-foto">
+        <br />
+        <div class="container">
+          <div class="row">
+            <h2 class="col-12 text-center">About me</h2>
 
+            <div class="col-12 col-md-6">
+              <p>
+                Liliane is a self-taught student who is learning web and mobile
+                development and always looking forward to join and create
+                innovative projects around people from different cultures,
+                backgrounds and mindsets. She is a latina from Brazil who loves
+                to overcome social challenges and lives to inspire black women
+                around the world. She has a resilient mind that gives her the
+                power to move forward while thinking about her long-term
+                achievements. When she was in school she received a scholarship
+                sponsored by the US government to join the Cultural Association
+                Brazil-United States right after she started her minor in
+                humanities. There, she studied about culture, society,
+                psychology and technology.
+              </p>
+            </div>
+
+            <div class="col-12 col-md-6">
+              <p>
+                During her second year in her University (UFSB) she started to
+                look for opportunities so she could go abroad and she ended up
+                being the sole Brazilian accepted in 2019-2020 to be part of the
+                Sutardja Center for Entrepreneurship and Technology inside the
+                prestigious UC Berkeley where she was able to explore, live, and
+                intern around and inside of Silicon Valley for tech startups
+                that were part of Berkeley Skydeck, Schoolab and others. Today,
+                Liliane is interning for a real estate company in Brazil.
+              </p>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="d-flex justify-content-center">
+          <a
+            class="btn btn-primary"
+            href="LS Resume Tech.pdf"
+            download="lilianesoares-resume"
+            >Download Resume</a
+          >
+        </div>
+        <br />
+      </section>
+
+      <section id="sec-contato">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <h2 class="col-12 text-center">Contato</h2>
+            <form action="">
+              <div class="mb-3">
+                <label for="formGroupExampleInput" class="form-label"
+                  >Nome Completo</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput"
+                  placeholder="Digite seu nome completo aqui"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label"
+                  >E-mail</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput2"
+                  placeholder="Digite seu e-mail aqui"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="formGroupExampleInput2" class="form-label"
+                  >Telefone</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="formGroupExampleInput2"
+                  placeholder="Digite DDD telefone aqui"
+                />
+              </div>
+
+              <div class="form-floating">
+                <label for="floatingTextarea2">Mensagem</label>
+                <textarea
+                  class="form-control"
+                  placeholder="Deixe sua mensagem"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+              </div>
+              <br />
+              <div class="d-flex justify-content-center">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <br />
+      </section>
+
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="card-footer w-100">
+              <small class="text-muted"
+                >Desenvolvido em 2022 por Liliane Soares</small
+              >
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
